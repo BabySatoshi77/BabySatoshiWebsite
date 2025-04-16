@@ -1,72 +1,36 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
-}
-
 body {
-  background: #fef8f5;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
   color: #333;
-  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
 }
 
 .container {
-  width: 90%;
-  max-width: 1000px;
-  margin: 0 auto;
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
   text-align: center;
 }
 
-header {
-  background: linear-gradient(to right, #f3904f, #3b4371);
-  color: white;
-  padding: 60px 20px;
-}
-
 .logo {
-  width: 100px;
-  border-radius: 50%;
+  width: 150px;
   margin-bottom: 20px;
 }
 
-.btn {
-  display: inline-block;
-  margin: 10px;
-  padding: 10px 20px;
-  background: #ffffff;
-  color: #333;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
+.card {
+  background: #fafafa;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-top: 20px;
 }
 
-.btn-secondary {
-  display: inline-block;
-  margin: 10px;
-  padding: 10px 20px;
-  background: transparent;
-  border: 2px solid #fff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-section {
-  padding: 40px 20px;
-}
-
-.tokenomics ul {
-  list-style: none;
-  padding: 0;
-}
-
-.tokenomics li {
-  margin: 10px 0;
-}
-
-footer {
-  background: #3b4371;
-  color: white;
-  padding: 20px;
+.disclaimer {
+  font-size: 12px;
+  color: orange;
+  margin-top: 20px;
 }
